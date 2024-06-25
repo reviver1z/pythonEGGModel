@@ -1,0 +1,12 @@
+#IN LINUX TERMINAL AND REPLACE YOUR USERNAME AND WHATEVER NEEDED
+cd /home/rev/Desktop/project/
+python projectFormal.py
+
+#IN CMD IN WINDOWS AND REPLACE YOUR USERNAME AND WHATEVER NEEDED
+cd \Users\rev\Desktop\project
+.\env\Scripts\activate
+pip list  # Ensure pandas and other packages are installed
+pip install pandas scikit-learn seaborn matplotlib  # Install any missing packages
+python projectFormal.py  # Run your script
+  
+ 
